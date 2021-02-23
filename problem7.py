@@ -1,5 +1,7 @@
 # We have to find the 10001th prime number
 # Just that. We have to start at 3 and from there check odd numbers.
+# This algorithm could be improved with a generator to save memory
+# The use of a list is quite memory intensive
 
 def findNthPrime(number):
     primes = [2]
